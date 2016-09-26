@@ -1,0 +1,77 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:stretchColumns="1">
+    <TableRow> 
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ÓÃ»§Ãû£º"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ÇëÌîÐ´µÇÂ¼ÕËºÅ"
+        android:selectAllOnFocus="true"></EditText>
+     </TableRow>
+	<TableRow>
+	    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ÃÜÂë£º"
+        android:textSize="16sp" />
+	    <EditText 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"/>
+	</TableRow>
+	<TableRow>
+	    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ÄêÁä£º"
+        android:textSize="16sp" />
+	    <EditText 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+	</TableRow>
+	<TableRow>
+	    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ÉúÈÕ£º"
+        android:textSize="16sp" />
+	    <EditText 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"/>
+	</TableRow>
+	<TableRow>
+	    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="µç»°£º"
+        android:textSize="16sp" />
+	    <EditText 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ÇëÌîÐ´ÄãµÄµç»°ºÅÂë£º"
+        android:selectAllOnFocus="true"
+        android:inputType="phone"/>
+	</TableRow>
+	<TableRow>
+	    <Button 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="×¢²á"/>
+	</TableRow>
+</TableLayout>
